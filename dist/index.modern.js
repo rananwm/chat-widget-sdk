@@ -79,6 +79,8 @@ var getThemeConfig = function getThemeConfig(settings) {
         cursor: 'pointer',
         outline: 0,
         transition: '0.2s',
+        background: overrides.primary,
+        borderColor: overrides.primary,
         '&:hover': {
           background: overrides.light,
           borderColor: overrides.light

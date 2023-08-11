@@ -53,6 +53,8 @@ export declare const getThemeConfig: (settings: ThemeSettings) => {
             cursor: string;
             outline: number;
             transition: string;
+            background: string;
+            borderColor: string;
             '&:hover': {
                 background: string;
                 borderColor: string;
