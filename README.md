@@ -7,7 +7,7 @@
 ## Install
 
 ```bash
-npm install --save chat-widget-sdk
+npm install --save rananwm/chat-widget-sdk#main
 ```
 
 ## Usage
@@ -15,8 +15,7 @@ npm install --save chat-widget-sdk
 ```tsx
 import React, { Component } from 'react'
 
-import MyComponent from 'chat-widget-sdk'
-import 'chat-widget-sdk/dist/index.css'
+import {MyComponent} from 'chat-widget-sdk'
 
 class Example extends Component {
   render() {
