@@ -726,7 +726,9 @@ var ChatWidget = function ChatWidget(props) {
     primaryColor: primaryColor,
     isMoblie: isMoblie
   });
-  return React.createElement(ChatProvider, null, React.createElement(ChatWidgetContainer, {
+  return React.createElement(ChatProvider, {
+    primaryColor: primaryColor
+  }, React.createElement(ChatWidgetContainer, {
     title: title,
     query: query,
     position: position,

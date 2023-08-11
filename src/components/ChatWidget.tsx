@@ -52,7 +52,7 @@ export const ChatWidget = (props: Props) => {
   })
 
   return (
-    <ChatProvider>
+    <ChatProvider primaryColor={primaryColor}>
       <ChatWidgetContainer title={title} query={query} position={position} styles={styles}/>
     </ChatProvider>
   );

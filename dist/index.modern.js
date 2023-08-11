@@ -723,7 +723,9 @@ var ChatWidget = function ChatWidget(props) {
     primaryColor: primaryColor,
     isMoblie: isMoblie
   });
-  return createElement(ChatProvider, null, createElement(ChatWidgetContainer, {
+  return createElement(ChatProvider, {
+    primaryColor: primaryColor
+  }, createElement(ChatWidgetContainer, {
     title: title,
     query: query,
     position: position,
