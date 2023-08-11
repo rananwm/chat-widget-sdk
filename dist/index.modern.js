@@ -707,8 +707,8 @@ var ChatWidget = function ChatWidget(props) {
     showAgentAvailability = _props$showAgentAvail === void 0 ? false : _props$showAgentAvail,
     _props$title = props.title,
     title = _props$title === void 0 ? "Welcome" : _props$title,
-    _props$subTitle = props.subTitle,
-    subTitle = _props$subTitle === void 0 ? "Hi, how can I help you today?" : _props$subTitle,
+    _props$subtitle = props.subtitle,
+    subtitle = _props$subtitle === void 0 ? "Hi, how can I help you today?" : _props$subtitle,
     _props$primaryColor = props.primaryColor,
     primaryColor = _props$primaryColor === void 0 ? "1890ff" : _props$primaryColor,
     _props$position = props.position,
@@ -721,7 +721,7 @@ var ChatWidget = function ChatWidget(props) {
     companyName: companyName,
     customerId: customerId,
     showAgentAvailability: showAgentAvailability,
-    subTitle: subTitle,
+    subtitle: subtitle,
     primaryColor: primaryColor,
     isMoblie: isMoblie
   });

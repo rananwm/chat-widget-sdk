@@ -21,7 +21,7 @@ interface Props {
   customerId: String;
   showAgentAvailability?: Boolean;
   title?: string;
-  subTitle?: String;
+  subtitle?: String;
   primaryColor?: String;
   position?: "left" | "right" | PositionConfig;
   styles?: StyleOverrides;
@@ -33,7 +33,7 @@ export const ChatWidget = (props: Props) => {
     customerId = '',
     showAgentAvailability = false,
     title = "Welcome",
-    subTitle = "Hi, how can I help you today?",
+    subtitle = "Hi, how can I help you today?",
     primaryColor = "1890ff",
     position = 'right',
     styles = {},
@@ -46,7 +46,7 @@ export const ChatWidget = (props: Props) => {
     companyName,
     customerId,
     showAgentAvailability,
-    subTitle,
+    subtitle,
     primaryColor,
     isMoblie
   })

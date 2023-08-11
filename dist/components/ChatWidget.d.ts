@@ -13,7 +13,7 @@ interface Props {
     customerId: String;
     showAgentAvailability?: Boolean;
     title?: string;
-    subTitle?: String;
+    subtitle?: String;
     primaryColor?: String;
     position?: "left" | "right" | PositionConfig;
     styles?: StyleOverrides;
