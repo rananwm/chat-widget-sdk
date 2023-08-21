@@ -27,7 +27,7 @@ interface Props {
   styles?: StyleOverrides;
 }
 
-export const ChatWidget = (props: Props) => {
+const ChatWidget = (props: Props) => {
   const {
     companyName = '',
     customerId = '',
@@ -57,3 +57,5 @@ export const ChatWidget = (props: Props) => {
     </ChatProvider>
   );
 };
+
+export default ChatWidget

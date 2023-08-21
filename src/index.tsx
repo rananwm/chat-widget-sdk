@@ -1,6 +1,7 @@
-import { ChatWidget } from "./components/ChatWidget";
+import ChatWidget from './components/ChatWidget'
 
-export {
-  ChatWidget
-}
+export const ChatWidgetSDK = {}
+
+export { ChatWidget }
+
 export default ChatWidget
