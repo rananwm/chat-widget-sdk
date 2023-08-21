@@ -5,14 +5,8 @@
   "author": "rananwm",
   "license": "MIT",
   "repository": "rananwm/chat-widget-sdk",
-  "type": "module",
-  "exports": {
-    "require": "./dist/index.cjs",     
-    "default": "./dist/index.modern.js"
-  },
-  "main": "./dist/index.cjs",          
-  "module": "./dist/index.module.js",  
-  "unpkg": "./dist/index.umd.js",      
+  "main": "dist/index.js",
+  "module": "dist/index.modern.js",
   "source": "src/index.tsx",
   "engines": {
     "node": ">=16"
