@@ -5,15 +5,21 @@
   "author": "rananwm",
   "license": "MIT",
   "repository": "rananwm/chat-widget-sdk",
-  "main": "dist/index.js",
-  "module": "dist/index.modern.js",
+  "type": "module",
+  "exports": {
+    "require": "./dist/index.cjs",     
+    "default": "./dist/index.modern.js"
+  },
+  "main": "./dist/index.cjs",          
+  "module": "./dist/index.module.js",  
+  "unpkg": "./dist/index.umd.js",      
   "source": "src/index.tsx",
   "engines": {
     "node": ">=16"
   },
   "scripts": {
-    "build": "microbundle-crl --format modern,cjs,umd",
-    "start": "microbundle-crl watch --no-compress --format modern,cjs,umd",
+    "build": "microbundle-crl",
+    "start": "microbundle-crl watch --no-compress",
     "prepare": "run-s build",
     "test": "run-s test:unit test:lint test:build",
     "test:build": "run-s build",
