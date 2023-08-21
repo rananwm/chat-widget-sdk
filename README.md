@@ -15,10 +15,10 @@ yarn add rananwm/chat-widget-sdk#main
 ```jsx
 import React, { Component } from 'react'
 
-import { MyComponent } from 'chat-widget-sdk'
+import { ChatWidget } from 'chat-widget-sdk'
 
 const Example = () => {
-  return <MyComponent />
+  return <ChatWidget />
 }
 
 export default Example
