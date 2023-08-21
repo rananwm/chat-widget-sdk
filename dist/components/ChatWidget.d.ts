@@ -18,5 +18,5 @@ interface Props {
     position?: "left" | "right" | PositionConfig;
     styles?: StyleOverrides;
 }
-export declare const ChatWidget: (props: Props) => React.JSX.Element;
-export {};
+declare const ChatWidget: (props: Props) => React.JSX.Element;
+export default ChatWidget;

@@ -1,5 +1,5 @@
 import React from 'react'
-import ChatWidget from 'chat-widget-sdk'
+import { ChatWidget } from 'chat-widget-sdk'
 
 const App = () => {
   return (

@@ -7,21 +7,21 @@
 ## Install
 
 ```bash
-npm install --save rananwm/chat-widget-sdk#main
+yarn add rananwm/chat-widget-sdk#main
 ```
 
 ## Usage
 
-```tsx
+```jsx
 import React, { Component } from 'react'
 
-import {MyComponent} from 'chat-widget-sdk'
+import { MyComponent } from 'chat-widget-sdk'
 
-class Example extends Component {
-  render() {
-    return <MyComponent />
-  }
+const Example = () => {
+  return <MyComponent />
 }
+
+export default Example
 ```
 
 ## License
