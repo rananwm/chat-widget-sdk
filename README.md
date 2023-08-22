@@ -12,27 +12,29 @@ yarn add rananwm/chat-widget-sdk#main
 
 ## Usage
 
+### Using in HTML
+
+Paste the code below between your `<head>` and `</head>` tags:
+
 ```html
-<head>
-  <!-- Add Scripts -->
-  <script type="text/javascript">
-    // Insert Props
-    window.ChatWidgetProps = {
-      // Props
-    }
-  </script>
-  <script
-    type="module"
-    src="https://chat-widget-nu.vercel.app/widget.js"
-  ></script>
-</head>
-<body>
-  <!-- Must add element with id chat-widget-container -->
-  <div id="chat-widget-container"></div>
-</body>
+<script type="text/javascript">
+  // Insert Props
+
+  window.ChatWidgetProps = {
+    // Props
+  }
+</script>
+<script
+  type="module"
+  src="https://chat-widget-nu.vercel.app/widget.js"
+></script>
 ```
 
-```jsx
+### Using in React
+
+Place the code below in any pages on which you would like to render the widget. If you'd like to render it in all pages by default, place it in the root component of your app.
+
+```tsx
 import React, { Component } from 'react'
 
 import { ChatWidget } from 'chat-widget-sdk'
